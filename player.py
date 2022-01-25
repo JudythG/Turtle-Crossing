@@ -5,8 +5,8 @@ FINISH_LINE_Y = 280
 
 
 class Player(Turtle):
-    def __init__(self, shape):
-        super().__init__(shape)
+    def __init__(self):
+        super().__init__("turtle")
         self.setheading(90)
         self.penup()
         self.goto(STARTING_POSITION)
